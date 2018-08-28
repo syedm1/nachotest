@@ -69,7 +69,7 @@ class Note extends Component {
     const { note, closeTagForm } = this.props;
     return(
       <div className="note-container">
-        <h2>Edit This Note</h2>
+        <h2>Edit This Job</h2>
         <form
           className="note-form"
           onSubmit={(e) => this.onSubmit(e)}
